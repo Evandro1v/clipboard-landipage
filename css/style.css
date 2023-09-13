@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+    color: #4f545a;
+}
+h2{
+    font-size: 26px;
+    color: #4f545a;
+
+}
+h3{
+    font-size: 20px;
+    color: #4f545a;
+
+}
+p{
+    text-align: center;
+    color: #b0b4b7;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url(/images/bg-header-mobile.png);
+    background-size: 100% 100%;
+
+}
+header img{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.primeira-secao{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    padding: 20px;
+}
+.container-botao{
+    margin-top: 20px;
+}
+.botao1 ,.botao2{
+    margin-top: 15px;
+    width: 290px;
+    padding: 13px;
+    border-radius: 25px;
+    color: white;
+}
+.botao1{
+    background-color: #26bba5;
+}
+.botao2{
+    background-color: #6174ff;
+}
+.primeira-secao h2{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    width: 220px;
+}
+.segunda-secao {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.container-computador img{
+    width: 280px;
+}
+.container-ladocomputador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+}
+.container-ladocomputador h3 {
+    margin-top: 35px;
+}
+.container-ladocomputador p {
+    margin-top: 20px;
+}
+.terceira-secao{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.terceira-secao img{
+    width: 300px;
+    margin-top: 40px;
+}
+.terceira-secao h2, .terceira-secao p{
+width: 280px;
+margin-top: 20px;
+}
+
+.quarta-secao,.container-textos{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+ .quarta-secao h2,.quarta-secao p {
+    width: 280px;
+    margin-top: 20px;
+}
+.container-textos img{
+    margin-top: 20px;
+}
+.imagens{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagens img{
+    margin-top: 30px;
+    width: 110px;
+    margin-bottom: 15px;
+}
+.quinta-secao{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.quinta-secao h2,.quinta-secao p {
+    width: 280px;
+    margin-top: 20px;
+}
+footer{
+    background-color:#f5f6f8 ;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;}
+.imagens-footer img{
+    margin-top: 30px;
+    width: 50px;
+}
+footer p{
+    margin-top: 15px;
+}
+.imagens-sociais img{
+    margin-top: 15px;
+padding: 15px;
+}
+@media (min-width:768px){
+    .container-botao {
+        display: flex;
+    
+}
+.botao1, .botao2 {
+    width: 200px;
+    padding: 13px;
+    margin-left: 15px;
+    border-radius: 25px;
+    color: white;
+}
+.primeira-secao h2,.primeira-secao p{
+    width: 560px;
+}
+.segunda-secao {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.container-computador{
+    width: 50%;
+}
+.container-computador img {
+    width: 100%;
+}
+.container-ladocomputador {
+    width: 50%;
+}
+.terceira-secao h2, .terceira-secao p {
+    width: 475px;
+
+}
+.terceira-secao img {
+    width: 50%;
+ 
+}
+.quarta-secao h2, .quarta-secao p {
+    width: 400px;
+ 
+}
+.container-textos {
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+}
+.container-textos h2 ,.container-textos p{
+    width: 100%;
+}
+.div1,.div2,.div3{
+    width: calc(100%/3);
+}
+.imagens {
+    width: 100%;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.quinta-secao h2, .quinta-secao p {
+    width: 450px;
+ }
+ footer {
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.imagens-footer{
+    display: flex;
+}
+.imagens-footer img {
+    margin: 0;
+    width: 35px;
+    height: 35px;
+    flex-direction: column;
+    align-self: center;
+}
+.imagens-footer div {
+    display: flex;
+    margin-left: 15px;
+    width: 100px;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+footer p {
+    margin-top: 2px;
+}
+}
